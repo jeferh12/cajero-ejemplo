@@ -1,0 +1,192 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+     background: url(https://i.imgur.com/Xjh2ayv.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  /* images and videos max out at full width */
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+  #arriba {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #pantalla {
+    background-color: #7B67E0;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 7;
+  }
+  .card {
+    background-color: #d6d6d6;
+    margin: auto;
+    height: 25em;
+    opacity:0.93;
+  }
+  .botones_1{
+    width: 30px;
+    height:20px;
+    justify-self: center;
+    align-self: center;
+    grid-column-start: 2;
+  }
+  #boton1_1{
+    grid-row-start: 2;
+  }
+  #boton2_1{
+    grid-row-start: 3;
+  }
+  #boton3_1{
+    grid-row-start: 4;
+  }
+  #arriba{
+    display: grid;
+    grid-template-columns: 5% 10% 35% 35% 10% 5% ;
+    grid-template-rows: 5% 13% 13% 13% 25% 25% 6%;
+    height: 18em;
+  }
+  .botones_2_1{
+    width: 30px;
+    height:20px;
+    grid-column-start: 3;
+    justify-self: end;
+    align-self: center;
+    font-size:x-small;
+    margin: 3px 0px;
+  }
+  .botones_2_2{
+    width: 30px;
+    height:20px;
+    grid-column-start: 4;
+    justify-self: center;
+    align-self: center;
+    font-size:x-small;
+    margin: 3px 0px;
+  }
+  .botones_2_3{
+    width: 30px;
+    height:20px;
+    grid-column-start: 5;
+    font-size:x-small;
+    margin: 3px 0px;
+  }
+  .botones_2_4{
+    width: 50px;
+    height:20px;
+    grid-column-start: 6;
+    font-size:x-small;
+    margin: 3px 0px;
+  }
+  .card-body{
+    margin: 0;
+  }
+  #abajo{
+    display: grid;
+    grid-template-columns: 5% 10% 20% 20% 20% 10% 5%;
+    grid-template-rows 20% 20% 20% 20%;
+  }
+  #boton1_2{
+    grid-row-start: 2;
+  }
+  #boton2_2{
+    grid-row-start: 3;
+  }
+  #boton3_2{
+    grid-row-start: 4;
+  }
+  #boton4_2{
+    grid-row-start: 2;
+  }
+  #boton5_2{
+    grid-row-start: 3;
+  }
+  #boton6_2{
+    grid-row-start: 4;
+  }
+  #boton7_2{
+    grid-row-start: 2;
+  }
+  #boton8_2{
+    grid-row-start: 3;
+  }
+  #boton9_2{
+    grid-row-start: 4;
+  }
+  #boton10_2{
+    grid-row-start: 5;
+  }
+  #boton11_2{
+    grid-row-start: 2;
+    background-color: yellow;
+  }
+  #boton12_2{
+    grid-row-start: 3;
+    background-color: red;
+  }
+  #boton13_2{
+    grid-row-start: 4;
+    background-color: green;
+  }
+  #boton14_2{
+    grid-row-start: 5;
+  }
+  #ingreso{
+    margin: 5px;
+    font-weight: bold;
+  }
+  #acciones{
+    margin: 3px;
+    font-weight: bold;
+  }
+  #consultar{
+    margin: 3px;
+  }
+  #ingresar{
+    margin: 3px;
+    font-weight: bold;
+  }
+  #flex{
+     display:flex;
+  }
+  #ing_monto{
+    width: 40%;
+    height: 30%;
+  }
+  #ret_monto{
+    width: 40%;
+    height: 30%;
+  }
+  #regresar{
+    display:;
+  }
+  #retirar{
+    margin: 3px;
+  }
+  input{
+    background-color:#CCE067;
+  }
+  p{
+    font-weight: bold;
+    color: #CCE067;
+  }
